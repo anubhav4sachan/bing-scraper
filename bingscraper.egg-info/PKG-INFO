@@ -1,12 +1,12 @@
 Metadata-Version: 1.0
 Name: bingscraper
-Version: 1.0
+Version: 2.0
 Summary: The BingScraper is python3 package having function to extract the text and images content on search engine `bing.com`.
 Home-page: https://www.github.com/anubhav4sachan/bing-scraper
 Author: Anubhav Sachan
 Author-email: anubhav4sachan@gmail.com
 License: UNKNOWN
-Description: ï»¿ï»¿
+Description: ï»¿ï»¿ï»¿
          # Bing Scraper
         
         The bingscraper is python3 package which extracts the text and images content on search engine `bing.com`.
@@ -30,19 +30,7 @@ Description: ï»¿ï»¿
         
         2.	Internet Connection: Continuous high speed internet connection is required for the proper function of the python package as  it continuously creates the copy of the images into the local machine.
         
-        3.  Python: Version 3.5.6 or above. This package is written in `python 3.5.6`
-        
-        ## Installation
-        
-        For python installation:
-        
-        `pip install bingscraper`
-        or 
-        `python -m pip install bingscraper`
-        
-        For Anaconda installation:
-        
-        `conda install bingscraper`
+        3.  Python: Version 3.6.4 or above. This package is written in `python 3.6.4`
         
         ## How to use
         
@@ -54,7 +42,9 @@ Description: ï»¿ï»¿
         
         `search = str(input())`
         
-        `bs.scrape(search)`
+        `bs.scrape(search).text()    #For Text Scraping.`
         
-        Function scrape() takes an string argument and does the scraping work.
+        `bs.scrape(search).image()   #For Image Scraping.`
+        
+        scrape() takes a string argument and the .text() or .image() does the scraping work.
 Platform: UNKNOWN

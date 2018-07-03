@@ -3,11 +3,11 @@
 import setuptools
 
 try:
-    README = open('README.md').read()
+    README_DESC = open('README_DESC.md').read()
 except:
-    README = '"README.md" not found'
+    README_DESC = '"README_DESC.md" not found'
 
-VERSION = '1.0'
+VERSION = '2.0'
 NAME = 'bingscraper'
 SHORT_DESC = 'The BingScraper is python3 package having function to extract the text and images content on search engine `bing.com`.'
 AUTHOR = 'Anubhav Sachan'
@@ -20,7 +20,7 @@ setuptools.setup(
         name = NAME,
         version = VERSION,
         description = SHORT_DESC,
-        long_description = README,
+        long_description = README_DESC,
         url = URL,
         author = AUTHOR,
         author_email = EMAIL,

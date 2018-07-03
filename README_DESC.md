@@ -24,19 +24,6 @@ The script working in background requests for a search term and creates director
 
 3.  Python: Version 3.6.4 or above. This package is written in `python 3.6.4`
 
-## Installation
-
-For python installation:
-
-`pip install bingscraper`
-or 
-`python -m pip install bingscraper`
-
-For Anaconda installation:
-
-`conda install bingscraper`
-
-
 ## How to use
 
 Install the above modules. Successful import of `bingscraper` depends only after the above imports.
@@ -51,10 +38,4 @@ Sample code in python:
 
 `bs.scrape(search).image()   #For Image Scraping.`
 
-`scrape()` takes a string argument and the `.text()` or `.image()` does the scraping work.
-
-## Change Log
-
-### Version 2.0: 
-
-Separated `.text()` and `.image()`. Use as per requirement.
+scrape() takes a string argument and the .text() or .image() does the scraping work.
