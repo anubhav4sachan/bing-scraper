@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: bingscraper
-Version: 2.0
+Version: 3.0
 Summary: The BingScraper is python3 package having function to extract the text and images content on search engine `bing.com`.
 Home-page: https://www.github.com/anubhav4sachan/bing-scraper
 Author: Anubhav Sachan

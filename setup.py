@@ -7,7 +7,7 @@ try:
 except:
     README_DESC = '"README_DESC.md" not found'
 
-VERSION = '2.0'
+VERSION = '3.0'
 NAME = 'bingscraper'
 SHORT_DESC = 'The BingScraper is python3 package having function to extract the text and images content on search engine `bing.com`.'
 AUTHOR = 'Anubhav Sachan'

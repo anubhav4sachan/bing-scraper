@@ -1,4 +1,4 @@
-﻿﻿﻿
+﻿﻿﻿﻿
  # Bing Scraper
 
 The bingscraper is python3 package which extracts the text and images content on search engine `bing.com`.
@@ -51,10 +51,24 @@ Sample code in python:
 
 `bs.scrape(search).image()   #For Image Scraping.`
 
-`scrape()` takes a string argument and the `.text()` or `.image()` does the scraping work.
+OR
+
+`from bingscraper import scrape`
+
+`search = str(input())`
+
+`scrape(search).text()    #For Text Scraping.`
+
+`scrape(search).image()   #For Image Scraping.`
+
+###### `scrape()` takes a string argument and the `.text()` or `.image()` does the scraping work.
 
 ## Change Log
 
 ### Version 2.0: 
 
 Separated `.text()` and `.image()`. Use as per requirement.
+
+### Version 3.0:
+
+Minor Changes.

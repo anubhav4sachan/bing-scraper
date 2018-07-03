@@ -1,7 +1,6 @@
 README.md
 setup.py
 bingscraper/__init__.py
-bingscraper/bingscraper.py
 bingscraper.egg-info/PKG-INFO
 bingscraper.egg-info/SOURCES.txt
 bingscraper.egg-info/dependency_links.txt
