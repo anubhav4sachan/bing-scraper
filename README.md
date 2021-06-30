@@ -63,12 +63,27 @@ OR
 
 ###### `scrape()` takes a string argument and the `.text()` or `.image()` does the scraping work.
 
-## Change Log
+# How to cite the project?
 
-### Version 2.0: 
+If the tool has been helpful to you and wish to cite it, you're requested to cite it as follows:
+
+```
+@misc{sachan2018bingscraper,
+      title={bingscraper • pypi},
+      author={Sachan, Anubhav},
+      year={2018},
+      url={https://pypi.org/project/bingscraper/}
+}
+```
+
+For other formats, [cite as per Google Scholar](https://scholar.google.com/scholar?cluster=12184846436547447644&hl=en&oi=scholarr#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AXEsYpUZFGakJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26scfhb%3D1%26hl%3Den)
+
+### Change Log
+
+#### Version 2.0: 
 
 Separated `.text()` and `.image()`. Use as per requirement.
 
-### Version 3.0:
+#### Version 3.0:
 
 Minor Changes.
